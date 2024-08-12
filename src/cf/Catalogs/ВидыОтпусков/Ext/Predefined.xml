@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.17">
+	<Item id="eb18d828-39e9-4c47-a5a9-331608097cfb">
+		<Name>ОтпускУчебный</Name>
+		<Code/>
+		<Description>Дополнительный учебный отпуск (оплачиваемый)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eead723e-408c-44f0-8075-76ded8a4d367">
+		<Name>ОтпускБезОплатыУчебный</Name>
+		<Code/>
+		<Description>Дополнительный учебный отпуск без оплаты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a0db0280-3fcd-4c90-8568-1aa971b969d3">
+		<Name>Основной</Name>
+		<Code/>
+		<Description>Ежегодный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f8c1369-4524-4709-ac61-234b01333bef">
+		<Name>ОтпускЗаСвойСчет</Name>
+		<Code/>
+		<Description>Отпуск без оплаты в соотв. с частью 1 статьи 128 ТК РФ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="604061fb-a5ab-45c3-9263-99388be0ceaf">
+		<Name>ОтпускБезОплатыПоТКРФ</Name>
+		<Code/>
+		<Description>Отпуск без оплаты в соотв. с частью 2 статьи 128 ТК РФ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

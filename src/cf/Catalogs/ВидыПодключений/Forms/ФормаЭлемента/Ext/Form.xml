@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ПроверитьПодключение" id="37">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПроверитьПодключение</CommandName>
+				<ExtendedTooltip name="ПроверитьПодключениеРасширеннаяПодсказка" id="38"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Pages name="Группа1" id="31">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<Page name="ГруппаПодключение" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подключение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа подключение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПодключениеРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<InputField name="Адрес" id="7">
+							<DataPath>Объект.Адрес</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АдресКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Порт" id="25">
+							<DataPath>Объект.Порт</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПортКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="Логин" id="19">
+							<DataPath>Объект.Логин</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЛогинКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="Пароль" id="22">
+							<DataPath>Объект.Пароль</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПарольКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="ВиртуальныйХост" id="10">
+							<DataPath>Объект.ВиртуальныйХост</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВиртуальныйХостКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ВиртуальныйХостРасширеннаяПодсказка" id="12"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСообщение" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сообщение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа сообщение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСообщениеРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<InputField name="ТочкаОбмена" id="28">
+							<DataPath>Объект.ТочкаОбмена</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТочкаОбменаКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ТочкаОбменаРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="ИмяОчереди" id="13">
+							<DataPath>Объект.ИмяОчереди</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИмяОчередиКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ИмяОчередиРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="КлючМаршрутизации" id="16">
+							<DataPath>Объект.КлючМаршрутизации</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КлючМаршрутизацииКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="КлючМаршрутизацииРасширеннаяПодсказка" id="18"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ВидыПодключений</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроверитьПодключение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить подключение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьПодключение</Action>
+		</Command>
+	</Commands>
+</Form>

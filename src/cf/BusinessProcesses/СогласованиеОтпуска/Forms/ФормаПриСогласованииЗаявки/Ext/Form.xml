@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаВыполнитьЗакрыть" id="22">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ВыполнитьЗакрыть</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Выполнить, закрыть</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаВыполнитьЗакрытьРасширеннаяПодсказка" id="23"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="26">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Write</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="27"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="24">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="25"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<CheckBoxField name="ПроверкаСогласования" id="7">
+			<DataPath>Объект.ПроверкаСогласования</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Согласовано</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПроверкаСогласованияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПроверкаСогласованияРасширеннаяПодсказка" id="9"/>
+		</CheckBoxField>
+		<InputField name="Сотрудник" id="10">
+			<DataPath>Объект.Сотрудник</DataPath>
+			<Visible>false</Visible>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СотрудникКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<UsualGroup name="ГруппаДанныеОтпуска" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные отпуска</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа данные отпуска</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаДанныеОтпускаРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<LabelField name="Инициатор" id="28">
+					<DataPath>Объект.Инициатор</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сотрудник</v8:content>
+						</v8:item>
+					</Title>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="ИнициаторКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ИнициаторРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="ДокументНаСогласование" id="31">
+					<DataPath>Объект.ДокументНаСогласование</DataPath>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="ДокументНаСогласованиеКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ДокументНаСогласованиеРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<InputField name="ДокументНаСогласованиеВидОтпуска" id="34">
+					<DataPath>Объект.ДокументНаСогласование.ВидОтпуска</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДокументНаСогласованиеВидОтпускаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ДокументНаСогласованиеВидОтпускаРасширеннаяПодсказка" id="36"/>
+				</InputField>
+				<UsualGroup name="ГруппаДата" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дата</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дата</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаДатаРасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<InputField name="ДокументНаСогласованиеДатаНачала" id="37">
+							<DataPath>Объект.ДокументНаСогласование.ДатаНачала</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДокументНаСогласованиеДатаНачалаКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ДокументНаСогласованиеДатаНачалаРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="ДокументНаСогласованиеДатаОкончания" id="40">
+							<DataPath>Объект.ДокументНаСогласование.ДатаОкончания</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДокументНаСогласованиеДатаОкончанияКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ДокументНаСогласованиеДатаОкончанияРасширеннаяПодсказка" id="42"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:BusinessProcessObject.СогласованиеОтпуска</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьЗакрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗакрыть</Action>
+		</Command>
+	</Commands>
+</Form>
