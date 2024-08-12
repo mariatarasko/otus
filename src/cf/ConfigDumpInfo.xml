@@ -94,7 +94,7 @@
 		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.Форма.Help" id="9d8e2bfe-5582-4c9e-baa1-1fe3d4ac0464.1" configVersion="e8b815a49889c144af2ac2c29a5de4d400000000"/>
 		<Metadata name="DataProcessor.КонсольЗаданий2019.Help" id="12b8f587-2722-45ba-bf71-708934b6da43.1" configVersion="4e63751553175a4a8a86024a3557e40800000000"/>
 		<Metadata name="DataProcessor.КонсольЗаданий2019.ObjectModule" id="12b8f587-2722-45ba-bf71-708934b6da43.0" configVersion="a72d569f089d91449334c5a12db62b7b00000000"/>
-		<Metadata name="Document.ЗаявкаНаОтпуск" id="3b8ed944-bcb1-4723-96ce-2db30364a787" configVersion="8ddedcd7f4c0554f8f61b3f91bd6496800000000">
+		<Metadata name="Document.ЗаявкаНаОтпуск" id="3b8ed944-bcb1-4723-96ce-2db30364a787" configVersion="ef4699346ab28045819145d22597fc6300000000">
 			<Metadata name="Document.ЗаявкаНаОтпуск.Attribute.ДатаОкончания" id="50684abb-72a9-408c-9d50-9b3186be190f"/>
 			<Metadata name="Document.ЗаявкаНаОтпуск.Attribute.Согласующий" id="7a951c3f-42ca-4978-aed6-019f14305fdb"/>
 			<Metadata name="Document.ЗаявкаНаОтпуск.Attribute.ДатаРассмотрения" id="92667fbc-4417-4cec-84e0-ea9796ec6138"/>
@@ -105,7 +105,7 @@
 		</Metadata>
 		<Metadata name="Document.ЗаявкаНаОтпуск.Form.ФормаДокумента" id="1f25506b-7325-4c41-9cdd-8fbe6f90af23" configVersion="6489872fec44d741bf1548c80eede01a00000000"/>
 		<Metadata name="Document.ЗаявкаНаОтпуск.Form.ФормаДокумента.Form" id="1f25506b-7325-4c41-9cdd-8fbe6f90af23.0" configVersion="2a35297228258d43bb987ffe7efb528300000000"/>
-		<Metadata name="Document.ЗаявкаНаОтпуск.ObjectModule" id="3b8ed944-bcb1-4723-96ce-2db30364a787.0" configVersion="0f3001838548c442a95a0c58cc7d47b600000000"/>
+		<Metadata name="Document.ЗаявкаНаОтпуск.ObjectModule" id="3b8ed944-bcb1-4723-96ce-2db30364a787.0" configVersion="0f7d7972e95bd9458b7cd04780487ec900000000"/>
 		<Metadata name="EventSubscription.ЗадачаОбработкиПолученияФормы" id="dc19927a-40ad-4f04-9e26-67b44af3e232" configVersion="719f7eea2654384e8d26ff0b8e47ca0500000000"/>
 		<Metadata name="HTTPService.Exchange" id="78fdd875-e0c1-4eab-8017-a32f31072ceb" configVersion="9389991df0abbb4ba413ae9512b784a900000000">
 			<Metadata name="HTTPService.Exchange.URLTemplate.add_Employe.Method.POST" id="2e316713-09c3-457f-b05f-793d958681d0"/>

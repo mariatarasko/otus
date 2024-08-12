@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВидыПодключений" id="35347aa1-d1c9-449e-998d-6d2136aa2918" configVersion="e4df764885643f8359163c2512f21d5fd271b947">
+			<Metadata name="Catalog.ВидыПодключений.Attribute.ИмяОчереди" id="3b3717ac-a110-4a09-b5bf-5d5009530963"/>
+			<Metadata name="Catalog.ВидыПодключений.Attribute.Пароль" id="51c90815-42f9-403e-8dc4-0ccb7d5f5aba"/>
+			<Metadata name="Catalog.ВидыПодключений.Attribute.ТочкаОбмена" id="844a17e1-ceca-4e35-abcb-1cc5b11633a3"/>
+			<Metadata name="Catalog.ВидыПодключений.Attribute.Порт" id="8d0a3eb7-e4b4-4038-90b4-44829dd15d0f"/>
+			<Metadata name="Catalog.ВидыПодключений.Attribute.Логин" id="9461135f-5bb0-450b-9563-6b61b53f3602"/>
+			<Metadata name="Catalog.ВидыПодключений.Attribute.КлючМаршрутизации" id="cc3b115d-d0ae-411f-8ced-8545fd9dcf13"/>
+			<Metadata name="Catalog.ВидыПодключений.Attribute.ВиртуальныйХост" id="cdc8114e-7234-4424-8f8f-eac043168b4a"/>
+			<Metadata name="Catalog.ВидыПодключений.Attribute.Адрес" id="fe254e27-7a01-4911-9cc4-2309ffacf476"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыПодключений.Form.ФормаЭлемента" id="cbbb9e99-1fb7-417f-851d-4cc248281439" configVersion="b7c6f30eddf37efdc7302f3e620f94e064b004e6"/>
+		<Metadata name="Catalog.ВидыПодключений.Form.ФормаЭлемента.Form" id="cbbb9e99-1fb7-417f-851d-4cc248281439.0" configVersion="2601fab993ed5c9ac50991ee39d35cf02ae58944"/>
+		<Metadata name="Catalog.ВидыПодключений.Predefined" id="35347aa1-d1c9-449e-998d-6d2136aa2918.1c" configVersion="d8a5339df633126b97a5c6889bcdbc951e6f8ddb"/>
+		<Metadata name="Catalog.Организации" id="7724b8a5-f750-44c8-9255-893aae7e195e" configVersion="487f37f7061f6f80473a6147fa0838865eeb4311"/>
+		<Metadata name="Catalog.Сотрудники" id="3c7e50db-ea84-4033-ad5c-806c33f097ad" configVersion="926ebe32291ddd1854fd8159d3da6ac631c4e35d">
+			<Metadata name="Catalog.Сотрудники.Attribute.ФизическоеЛицо" id="b80db4a3-b2e6-4500-aa1b-17223ec826f1"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ГоловнаяОрганизация" id="c4be289e-257d-453f-9f45-43cc0d3d97cd"/>
+		</Metadata>
+		<Metadata name="Catalog.ФизическиеЛица" id="47afd608-e5b9-47e4-a086-16bd1e0ac1a8" configVersion="ccb13c3247a796430aa660f71fd6b097fcca9be0"/>
+		<Metadata name="ChartOfCalculationTypes.Начисления" id="6b62e980-0f4c-4d4d-b5d8-70a35944accc" configVersion="5321fcac193109bf30cfeed1e2fca0199cdbb06b"/>
+		<Metadata name="CommonModule.ОбщийСерверВызов" id="9bc8fa2a-0cc5-4ba3-9212-e18a5c37301e" configVersion="d2738689e52407e4d09fcd4039f7f04f3fb56e8e"/>
+		<Metadata name="CommonModule.ОбщийСерверВызов.Module" id="9bc8fa2a-0cc5-4ba3-9212-e18a5c37301e.0" configVersion="9e0f742bcca5fe1df6d5dcffade55a2d1934489a"/>
+		<Metadata name="CommonModule.РаботаСRMQ" id="aed885ba-eda2-41bc-afb6-04dd4254dd85" configVersion="aa24899ad0414d405ed552d98a3d4d0089394a9b"/>
+		<Metadata name="CommonModule.РаботаСRMQ.Module" id="aed885ba-eda2-41bc-afb6-04dd4254dd85.0" configVersion="cb85b77d390ec19303c4003a25f6bbc275fc9110"/>
+		<Metadata name="CommonTemplate.КомпонентаRMQ" id="78e3e399-f46a-4f68-8791-4ecc48c15d68" configVersion="0916583ad3d3a1e8b56bc6363b87cae1c0af5e13"/>
+		<Metadata name="CommonTemplate.КомпонентаRMQ.Template" id="78e3e399-f46a-4f68-8791-4ecc48c15d68.0" configVersion="cfef63ca3b7a49c8ccbc1469d238385ed9b42494"/>
+		<Metadata name="Configuration.change" id="5078f8c4-f4c8-4978-bb94-03ee2c97ac2b" configVersion="cf5707b737cff7b6744829e8b1d1b446c9f69580"/>
+		<Metadata name="Constant.ИспользоватьRMQ" id="fac090da-954d-452f-b905-b92a7213fccd" configVersion="e6050116d658b217554f8c5fc945d372356e5efb"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019" id="269b8008-00ab-46bf-b06c-901294fccc56" configVersion="a40f15e37bdd898a10b8d63968b2c2e2a4b2cdca"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогНастроекСписка" id="2dcca15d-838d-4d87-a775-0c234c0178ef" configVersion="2afcefd56fed98259347a0bdf30f8521c24dbe53"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогНастроекСписка.Form" id="2dcca15d-838d-4d87-a775-0c234c0178ef.0" configVersion="26c139692620b57f53f44d8d6efb5cca7dfba480"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогОтбораРегламентногоЗадания" id="649c7ad0-644e-4fd5-9fad-b54f271275a1" configVersion="37c6ef4e1e2aaf1fa9130068a25f127ef2caa1a0"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогОтбораРегламентногоЗадания.Form" id="649c7ad0-644e-4fd5-9fad-b54f271275a1.0" configVersion="37dd39d798b58ae4105490618447859db9f60d96"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогОтбораФоновогоЗадания" id="a77cac0a-2eea-453d-874a-7e5989f47e3b" configVersion="fdaf9571344ed72f5605aeeceab15a6f31fd00eb"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогОтбораФоновогоЗадания.Form" id="a77cac0a-2eea-453d-874a-7e5989f47e3b.0" configVersion="562931930bd3956a83e4d1bc0e15bde85235fd16"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогРегламентногоЗадания" id="b809707e-48a9-42e8-bc4b-b402ce948c24" configVersion="7e93ea97801a21dcf6b2ae7357346604725a4a9d"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогРегламентногоЗадания.Form" id="b809707e-48a9-42e8-bc4b-b402ce948c24.0" configVersion="030c6b64f6e671461ca7d7a1cfc30061366f69cc"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогФоновогоЗадания" id="c42682f5-ccd5-4d3a-a9e7-bca70f1c0140" configVersion="85da0c22e2f976b212284312ede572d3a85e7f00"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогФоновогоЗадания.Form" id="c42682f5-ccd5-4d3a-a9e7-bca70f1c0140.0" configVersion="5479bf1975150635961289ed1c236606097658f2"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.ДиалогФоновогоЗадания.Help" id="c42682f5-ccd5-4d3a-a9e7-bca70f1c0140.1" configVersion="db0d15a477102b1cf77444bcd20dc25fddf13811"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.Форма" id="9d8e2bfe-5582-4c9e-baa1-1fe3d4ac0464" configVersion="30ec048d38db2b1e385d8b553ef6435d492a1366"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.Форма.Form" id="9d8e2bfe-5582-4c9e-baa1-1fe3d4ac0464.0" configVersion="98796205d0f1e33c5f63de3d358e5ad0cfa7fabe"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Form.Форма.Help" id="9d8e2bfe-5582-4c9e-baa1-1fe3d4ac0464.1" configVersion="db0d15a477102b1cf77444bcd20dc25fddf13811"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.Help" id="269b8008-00ab-46bf-b06c-901294fccc56.1" configVersion="8c7bdd45ed9765fe4f795078c2eaa53106995f86"/>
+		<Metadata name="DataProcessor.КонсольЗаданий2019.ObjectModule" id="269b8008-00ab-46bf-b06c-901294fccc56.0" configVersion="6499b285e0219c1bd0d3f7e4a04fcf17e5e6e0b8"/>
+		<Metadata name="Document.ЗаявкаНаОтпуск" id="69e1c9f1-161a-4f4f-add7-f9f5abe4a389" configVersion="94966585e537172e22dc7e75d663b16112e8c713"/>
+		<Metadata name="Document.Отпуск" id="8c0ef2c8-13cd-48db-9536-fd0c720ca4a9" configVersion="0a2fc52caf6f6dfb42facec33c0b593283732ecb">
+			<Metadata name="Document.Отпуск.Attribute.ВидРасчетаОсновногоОтпуска" id="1bfe93eb-e8f2-4a75-9337-f43a40b6f79a"/>
+			<Metadata name="Document.Отпуск.Attribute.ПредоставитьОсновнойОтпуск" id="26146b28-ca7c-44c1-835f-9a9e2e356cf8"/>
+			<Metadata name="Document.Отпуск.Attribute.ЗаявкаСотрудника" id="4b39c61f-e262-4403-a164-f540392e7120"/>
+			<Metadata name="Document.Отпуск.Attribute.НачалоОтпуска" id="6b7c09fd-a819-4dfc-b3d5-e1ad10fddca9"/>
+			<Metadata name="Document.Отпуск.Attribute.ОкончаниеОтпуска" id="6cd00a4c-9295-41b1-8a33-57b4213880d4"/>
+			<Metadata name="Document.Отпуск.Attribute.ДатаОкончанияОсновногоОтпуска" id="73157157-a4eb-43b4-9291-e036a1e7740d"/>
+			<Metadata name="Document.Отпуск.Attribute.КоличествоДнейОсновногоОтпуска" id="85212b88-c6b8-4f1a-89e1-61ee0f82a2bc"/>
+			<Metadata name="Document.Отпуск.Attribute.ФизическоеЛицо" id="882ef8a4-235b-47c9-b49f-41f6b55d3b62"/>
+			<Metadata name="Document.Отпуск.Attribute.ДатаНачалаОсновногоОтпуска" id="9a6205b7-40fc-44df-9a26-aceb63991a14"/>
+			<Metadata name="Document.Отпуск.Attribute.Сотрудник" id="9b47bb51-b44b-4279-8048-0077ed3e3ae9"/>
+			<Metadata name="Document.Отпуск.Attribute.Организация" id="9de7befb-bc43-4b74-9608-404f92f8fb3a"/>
+			<Metadata name="Document.Отпуск.Attribute.ДатаНачалаСобытия" id="abbaa0db-21ec-4ec5-814b-bbf9ce27ca80"/>
+			<Metadata name="Document.Отпуск.Attribute.ДатаНачалаПериодаОтсутствия" id="cb9c8fbf-0d9a-4fc7-bce4-33cef2932f3e"/>
+			<Metadata name="Document.Отпуск.Attribute.ДатаОкончанияПериодаОтсутствия" id="da2786b3-fd6d-43e8-99d8-6de4dc491be6"/>
+			<Metadata name="Document.Отпуск.Attribute.ПериодРегистрации" id="faf4e204-94e2-42af-808d-679315210459"/>
+		</Metadata>
+		<Metadata name="HTTPService.Exchange" id="8966764f-ca8b-4817-b5df-f8afe907fdf6" configVersion="8f08224091e0c27f246f65021e5e28da829c0982">
+			<Metadata name="HTTPService.Exchange.URLTemplate.add_Vac" id="0572a070-3e73-452e-b5ae-2e91adbbd49c"/>
+			<Metadata name="HTTPService.Exchange.URLTemplate.add_Vac.Method.POST" id="b3fbfa56-7b52-4568-9b19-f74490f2f7fe"/>
+		</Metadata>
+		<Metadata name="HTTPService.Exchange.Module" id="8966764f-ca8b-4817-b5df-f8afe907fdf6.0" configVersion="ac83a0a6a7090c59c1faeb98933baac7ef413a5a"/>
+		<Metadata name="Language.Русский" id="84c77ea3-f3d7-402e-961c-3aea57d95ee2" configVersion="12a0aaa0efb9b9d41aec340e54c8f4c302ddf298"/>
+		<Metadata name="ScheduledJob.ch_ЗагрузкаПриказовНаОтпуск" id="f284bf27-f4aa-49b2-9450-f8747159717a" configVersion="a80c85f60b6915f0d5f7216c49d968ec31f7d3d5"/>
+		<Metadata name="Subsystem.ch_Обмен" id="a2ee23c1-37b8-4347-b681-332f37bdeceb" configVersion="11a6c72c3e150f0f92647d3a3cedb276112348b6"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

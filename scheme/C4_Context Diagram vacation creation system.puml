@@ -1,0 +1,19 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+
+title System Context diagram for Vacation creation system
+
+Person(customer, "Сотрудник организации", "Штатный сотрудник")
+Person_Ext(customer_zup, "Рассчетчик", "Рассчитывает и выплачивает заработную плату")
+System(lk_system, "Личный кабинет сотрудника", "Позволяет оформлять отпуска")
+System_Ext(zup_system, "1C ЗУП", "Позволяет вести  кадровый учет и рассчитывать зарплату")
+
+Rel(customer, lk_system, "Uses")
+Rel(customer_zup, zup_system, "Uses")
+Rel_Neighbor(lk_system, zup_system, "Данные об отпуске", "JSON/HTTPS")
+Rel_Neighbor(zup_system, lk_system, "Данные о сотрудниках", "JSON/HTTPS")
+@enduml

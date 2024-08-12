@@ -1,0 +1,49 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+
+' LAYOUT_TOP_DOWN()
+' LAYOUT_AS_SKETCH()
+LAYOUT_WITH_LEGEND()
+
+title Component diagram for Vacation creation system
+
+Person(customer, "Сотрудник организации", "Штатный сотрудник")
+Person_Ext(customer_zup, "Рассчетчик", "Рассчитывает и выплачивает заработную плату")
+
+System_Boundary(lk_system, "Личный кабинет сотрудника") {
+    Container(web_app, "Web Application", "1с веб клиент", "Позволяет работать с системой через веб приложение")
+    Container(spa, "Тонкий клиент", "1С клиент", "Позволяет работать с системой через десктоп приложение")
+    Container(server_1c, "Сервер 1с", "Кластер серверов", "Позволяет работать с базой данных, компонентами, API")
+    ContainerDb(database, "Database", "SQL Database", "Система управления базой данных")
+    Container(backend_api, "Веб сервер", "Apach", "Доступ к 1С через веб, публикация http сервисов")
+    Container(rmq_api, "Компонента доступа к RMQ", "BITERP", "Позволяет производить подключение к RMQ")
+    Container(web_comp, "Модуль расширения веб-сервера", "dll", "Позволяет производить подключение к веб-серверу")
+}
+
+System_Ext(zup_system, "1C ЗУП", "Позволяет вести  кадровый учет и рассчитывать зарплату")
+System(broker_system, "Брокер сообщений", "Rаbbit MQ")
+
+Rel(customer, web_app, "Uses", "HTTPS")
+Rel(customer, spa, "Uses", "TCP/HTTPS")
+
+Rel(customer_zup, zup_system, "Uses")
+
+Rel(web_app, backend_api, "Uses","HTTPS")
+Rel(spa, backend_api, "Uses","HTTPS")
+Rel_Neighbor(server_1c, web_comp, "Uses","TCP")
+Rel_Neighbor(web_comp, backend_api, "","HTTPS")
+Rel_Back_Neighbor(web_comp, backend_api, "","HTTPS")
+Rel(spa, server_1c, "","TCP")
+Rel(server_1c, database, "", "TCP")
+
+Rel(server_1c, rmq_api, "Uses", "")
+
+Rel_Neighbor(rmq_api, broker_system, "Данные об отпусках", "async, JSON/HTTPS")
+Rel_Neighbor(zup_system, broker_system, "чтение данных об отпусках", "async, JSON/HTTPS")
+
+Rel(zup_system, backend_api,"Данные о сотрудниках", "sync, JSON/HTTPS")
+Rel_Back(zup_system, backend_api,"Данные об отпусках", "sync, JSON/HTTPS")
+
+@enduml
